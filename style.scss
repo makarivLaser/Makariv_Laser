@@ -56,6 +56,7 @@ body._lock {
         justify-content: space-around;
         align-items: center;
         white-space: nowrap;
+        min-height: 68px;
     }
 
     &__burger {
@@ -491,7 +492,7 @@ body._lock {
 @media (max-width: 768px) {
 
     .header {
-        z-index: 12;
+        z-index: 14;
     }
 
     .header__inner {
@@ -511,17 +512,17 @@ body._lock {
         height: 100%;
         padding: 70px 30px 30px 30px;
         transition: left 0.3s ease 0s;
-        background-color: #ffcfbbd2;
+        background-color: #fdac8ae8;
         overflow: auto;
     }
 
-    .header__menu::before {
-        content: "";
-        position: fixed;
-        top: 0;
-        left: 0;
-        background-color: #ffcfbba6;
-    }
+    // .header__menu::before {
+    //     content: "";
+    //     position: fixed;
+    //     top: 0;
+    //     left: 0;
+    //     background-color: #fdad8a;
+    // }
 
     .header__menu-list-item {
         margin-bottom: 10px;
@@ -806,7 +807,7 @@ body._lock {
     }
 
     .aboutUs__inner {
-        
+
         padding-top: 15px;
 
         &-title {
