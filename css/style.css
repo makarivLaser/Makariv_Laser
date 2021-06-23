@@ -59,6 +59,7 @@ body._lock {
       -ms-flex-align: center;
           align-items: center;
   white-space: nowrap;
+  min-height: 68px;
 }
 
 .header__burger {
@@ -506,7 +507,7 @@ body._lock {
 
 @media (max-width: 768px) {
   .header {
-    z-index: 12;
+    z-index: 14;
   }
   .header__inner {
     -webkit-box-pack: justify;
@@ -526,15 +527,8 @@ body._lock {
     padding: 70px 30px 30px 30px;
     -webkit-transition: left 0.3s ease 0s;
     transition: left 0.3s ease 0s;
-    background-color: #ffcfbbd2;
+    background-color: #fdac8ae8;
     overflow: auto;
-  }
-  .header__menu::before {
-    content: "";
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-color: #ffcfbba6;
   }
   .header__menu-list-item {
     margin-bottom: 10px;
